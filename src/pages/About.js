@@ -1,10 +1,8 @@
 
-import Home from './pages/Home';
-const total = sum(10, 5);
-
+import '../styles/app.scss'
 window.addEventListener('load', ()=> {
   const div = document.createElement("div");
-  console.log(div);
-  div.innerHTML = total;
+
+  div.innerHTML = 'About';
   document.body.appendChild(div);
 })
