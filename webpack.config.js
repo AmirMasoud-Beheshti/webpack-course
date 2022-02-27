@@ -27,6 +27,11 @@ const config = {
       },
     ],
   },
+  devServer:{
+    port: 8080,
+    static:path.resolve(__dirname, "dist")
+  },
+  mode:'development'
 };
 
 module.exports = config;
