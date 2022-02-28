@@ -10,3 +10,6 @@ window.addEventListener("load", () => {
     document.body.appendChild(header);
   }
 });
+if(module.hot) {
+  module.hot.accept()
+}

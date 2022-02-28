@@ -29,7 +29,8 @@ const config = {
   },
   devServer:{
     port: 8080,
-    static:path.resolve(__dirname, "dist")
+    static:path.resolve(__dirname, "dist"), 
+    hot: true 
   },
   mode:'development'
 };

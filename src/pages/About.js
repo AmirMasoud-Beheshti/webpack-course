@@ -1,8 +1,9 @@
 
 import '../styles/app.scss'
-window.addEventListener('load', ()=> {
   const div = document.createElement("div");
 
-  div.innerHTML = 'About';
+  div.innerHTML = 'hi';
   document.body.appendChild(div);
-})
+if(module.hot) {
+  module.hot.accept()
+}
